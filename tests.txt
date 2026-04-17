@@ -1,0 +1,21 @@
+<> format() works for stripping output:
+
+        kima_~/CPP/Calc >>  ./calc "2x + 3"
+        striped_input in strip(): 2x+3
+        kima_~/CPP/Calc >>  
+
+<> --help flag works:
+        kima_~/CPP/Calc >>  ./calc --help
+        Usage: calc <flag> <expression> <parameters>
+        Examples:
+             calc "2 + 5"
+             calc "2+5"
+             calc "4 * 7"
+             calc "6 + 27/7"
+             calc "12 + 4^3"
+             calc "6log(2x) / 7"
+             calc "sin(12pi)" rad
+             calc "sec^2(45)"
+             calc "d/dx[7x^2 + 2x - 9]"
+             calc "S[3x^7 + x^5 - 2x^3 + x - 1]" (-3, 3)
+        kima_~/CPP/Calc >>  

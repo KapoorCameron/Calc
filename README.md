@@ -1,0 +1,1 @@
+Calc is a quick-to-use CLI calculator that can handle basic arithmetic, algebra, trig, and basic single-variable calculus.
