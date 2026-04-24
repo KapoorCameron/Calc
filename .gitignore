@@ -40,6 +40,6 @@
 # debug information files
 *.dwo
 
-notes.txt
+cs_notes.txt
 program_notes.txt
 calc

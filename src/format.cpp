@@ -1,6 +1,9 @@
 #include <iostream>   /*for debugging*/
 #include <string>
 
+#include "calc/format.hpp"
+
+
 std::string strip_input(std::string input)
 {
     std::string stripped_input = "";
@@ -13,9 +16,7 @@ std::string strip_input(std::string input)
             continue;
         }
     }
-
-    std::cout << "striped_input in strip(): " << stripped_input << "\n";
-
+    
     return stripped_input;
 }
 
